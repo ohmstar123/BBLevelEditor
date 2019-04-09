@@ -7,15 +7,29 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml;
 
 namespace BBLevelEditor
 {
     public partial class Form1 : Form
     {
+
         public Form1()
         {
             InitializeComponent();
         }
 
+        private void buildButton_Click(object sender, EventArgs e)
+        {
+
+            foreach (Control c in panel1.Controls)
+            {
+                if (c is Button)
+                {
+                   
+                }
+            }
+      
+        }
     }
 }
